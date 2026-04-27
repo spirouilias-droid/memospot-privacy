@@ -1,32 +1,68 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Datenschutzerklärung - MemoSpot</title>
+    <title>Privacy Policy - MemoSpot</title>
     <style>
         body { font-family: sans-serif; line-height: 1.6; max-width: 800px; margin: 40px auto; padding: 20px; color: #333; }
-        h1 { color: #2c3e50; }
+        h1 { color: #2c3e50; border-bottom: 2px solid #eee; padding-bottom: 10px; }
         h2 { color: #34495e; margin-top: 30px; }
+        .lang-section { margin-bottom: 60px; }
+        .divider { border-top: 3px double #eee; margin: 50px 0; }
+        .contact { background: #f9f9f9; padding: 15px; border-radius: 5px; }
     </style>
 </head>
 <body>
-    <h1>Datenschutzerklärung für MemoSpot</h1>
-    <p>Stand: 9. Januar 2026</p>
-    <p>Wir nehmen den Schutz Ihrer persönlichen Daten sehr ernst. Diese Datenschutzerklärung erläutert, welche Daten von der mobilen Anwendung MemoSpot ("App") erfasst werden und wie diese verwendet werden.</p>
 
-    <h2>1. Welche Daten werden erfasst?</h2>
-    <p>MemoSpot ist so konzipiert, dass die App so datensparsam wie möglich arbeitet. Wir erfassen und speichern keine persönlichen Daten von Ihnen auf unseren Servern. Alle von Ihnen erstellten Inhalte werden ausschließlich lokal auf Ihrem Gerät gespeichert.</p>
-    
-    <h3>a) Von Ihnen bereitgestellte Daten</h3>
-    <p><strong>Erinnerungstexte und Notizen:</strong> Alle Texte, die Sie für Ihre MemoSpots eingeben.<br>
-    <strong>Standortdaten (Geofences):</strong> Die von Ihnen auf der Karte ausgewählten geografischen Koordinaten sowie der gewählte Radius.</p>
+    <!-- ENGLISH VERSION -->
+    <div class="lang-section">
+        <h1>Privacy Policy for MemoSpot</h1>
+        <p>Last updated: January 9, 2026</p>
+        <p>We take the protection of your personal data very seriously. This privacy policy explains what data is collected by the mobile application "MemoSpot" (the "App") and how it is used.</p>
 
-    <h2>2. Erforderliche App-Berechtigungen</h2>
-    <p><strong>Standortzugriff im Hintergrund (ACCESS_BACKGROUND_LOCATION):</strong> Damit Ihre Erinnerungen auch dann zuverlässig funktionieren, wenn die App nicht geöffnet ist, benötigt die App die Berechtigung, auch im Hintergrund auf Ihren Standort zuzugreifen. Ihr Live-Standort wird zu keinem Zeitpunkt an uns übertragen oder dauerhaft gespeichert.</p>
+        <h2>1. Data Collection</h2>
+        <p>MemoSpot is designed to be as data-efficient as possible. We do not collect or store any of your personal data on our servers. All content you create is stored exclusively on your device locally.</p>
+        
+        <h3>a) Data Provided by You</h3>
+        <p><strong>Reminder texts and notes:</strong> All texts you enter for your MemoSpots.<br>
+        <strong>Location data (Geofences):</strong> The geographic coordinates (latitude and longitude) and the radius you select on the map to create location-based reminders.</p>
+        <p>This data is stored locally in a protected database on your device. We, the developers of MemoSpot, have no access to this content at any time.</p>
 
-    <h2>3. Kontakt</h2>
-    <p>Wenn Sie Fragen zu dieser Datenschutzerklärung haben, kontaktieren Sie uns bitte unter:<br>
-    <strong>mespdev@proton.me</strong></p>
+        <h2>2. App Permissions</h2>
+        <p><strong>Location Permissions:</strong> MemoSpot requires access to your device's location to enable the core functionality: triggering reminders when entering a set area (Geofencing).</p>
+        <p><strong>Background Location Access (ACCESS_BACKGROUND_LOCATION):</strong> To ensure your reminders work reliably even when the app is closed or not in use, the app requires permission to access your location in the background. Your live location is never transmitted to us or stored permanently.</p>
+
+        <h2>3. Data Sharing</h2>
+        <p>We do not sell your data. To provide app features, we use services from Google Ireland Limited. This involves technical data exchange (e.g., IP address) for Google Maps, Places API, and Google Play Billing.</p>
+
+        <div class="contact">
+            <h2>4. Contact</h2>
+            <p>If you have any questions, please contact us at:<br>
+            <strong>mespdev@proton.me</strong></p>
+        </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <!-- GERMAN VERSION -->
+    <div class="lang-section">
+        <h1>Datenschutzerklärung für MemoSpot</h1>
+        <p>Stand: 9. Januar 2026</p>
+        <p>Wir nehmen den Schutz Ihrer persönlichen Daten sehr ernst. Diese Datenschutzerklärung erläutert, welche Daten von der App MemoSpot erfasst und wie diese verwendet werden.</p>
+
+        <h2>1. Welche Daten werden erfasst?</h2>
+        <p>MemoSpot speichert keine persönlichen Daten auf unseren Servern. Alle Inhalte werden ausschließlich lokal auf Ihrem Gerät gespeichert.</p>
+        
+        <h2>2. App-Berechtigungen</h2>
+        <p><strong>Hintergrund-Standortzugriff:</strong> Damit Ihre Erinnerungen auch funktionieren, wenn die App geschlossen ist, benötigt die App die Berechtigung, im Hintergrund auf Ihren Standort zuzugreifen. Ihr Live-Standort wird niemals an uns übertragen.</p>
+
+        <div class="contact">
+            <h2>3. Kontakt</h2>
+            <p>Bei Fragen kontaktieren Sie uns bitte unter:<br>
+            <strong>mespdev@proton.me</strong></p>
+        </div>
+    </div>
+
 </body>
 </html>
